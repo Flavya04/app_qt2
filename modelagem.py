@@ -100,7 +100,7 @@ from equacoes import equacoes
 #     return
 
 
-# def modelagem(selected, menu):
+def modelagem(selected, menu):
 #     if selected == menu[2]:
 #         st.markdown('#### Modelagem com os coeficientes definidos'
 #                     + ' :orange[manualmente]:')
@@ -131,4 +131,4 @@ from equacoes import equacoes
 #         if botao:
 #             plotar(lista_parametros, lista_coeficientes,
 #                    lista_despejos, lista_retirada, delta)
-#     return
+    return
