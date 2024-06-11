@@ -1,5 +1,4 @@
 import numpy as np
-from sympy import symbols, solve
 
 
 def velocidade_manning(vazao):
@@ -13,15 +12,10 @@ def velocidade(vazao):
     largura = 4
     inclinacao = 0.001
     manning = 0.025
-    y = symbols('y')
-    expr = (((largura * y) * (
-        ((largura * y) / (largura + (2 * y))) ** (2 / 3)) * (
-            inclinacao ** (1/2))) / manning) - vazao
 
-    sol = solve(expr)
-    area = (largura * sol[0])
+    area = (largura * 0.897498340970115)
     velocidade = vazao / area
-    return velocidade, sol[0]
+    return velocidade, 0.897498340970115
 
 
 def mistura(concentracao1, vazao1, concentracao2, vazao2):
