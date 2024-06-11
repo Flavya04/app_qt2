@@ -11,10 +11,8 @@ from PIL import Image
 
 #opening the image
 
-image = Image.open("LOGO.png")
 
 bar = st.sidebar
-bar.image(image, output_format="PNG")
 bar.markdown('##### **:blue[MODELO DE QUALIDADE DA ÁGUA DE RIOS]**')
 
 # 1. as sidebar menu
