@@ -34,12 +34,12 @@ def introducao(selecao, menu):
         col1, col2, col3, col4 = st.columns(4)
         with col1:
             st.write("   ")
-            st.image("https://comunica.ufu.br/sites/default/files/imagem/2023-08/anexo_45_anos_ufu-01%5B1%5D.png",
+            st.image("ufu.png",
                      width=220)
         with col3:
-            st.image("http://www.fapemig.br/media/arquivos/nova_logo_eps.jpg",
+            st.image("fapemig.jpg",
                      width=120)
         with col4:
-            st.image("http://www.ppgmq.iciag.ufu.br/sites/ppgmq.iciag.ufu.br/files/imagens/logo-ppgmq.png",
+            st.image("ppgmq.jpg",
                      width=180)
         st.divider()
