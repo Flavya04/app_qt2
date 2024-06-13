@@ -8,7 +8,13 @@ from instrucoes import teste
 import streamlit as st
 
 from PIL import Image
-
+st.markdown("""
+<style>
+    [data-testid=stSidebar] {
+        background-color: #ff000050;
+    }
+</style>
+""", unsafe_allow_html=True)
 #opening the image
 
 image = Image.open('LOGO.png')
@@ -38,12 +44,3 @@ introducao(selected, menu)
 teste(selected, menu)
 modelagem(selected, menu)
 calibragem(selected, menu)
-
-hide_streamlit_style = """
-<style>
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-</style>
-"""
-
-st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
