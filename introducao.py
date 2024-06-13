@@ -4,14 +4,7 @@ import streamlit as st
 def introducao(selecao, menu):
     if selecao == menu[0]:
 
-        st.markdown("""
-            <style>
-                .reportview-container  {
-                    background-color: #ff000050;
-                }
-            </style>
-            """, unsafe_allow_html=True)
-        
+       
         st.markdown('''<h1 style='text-align: center;
                     color: teal;
                     '>Apresentação </h2>''',
