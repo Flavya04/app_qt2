@@ -3,7 +3,14 @@ import streamlit as st
 
 def introducao(selecao, menu):
     if selecao == menu[0]:
-       
+        
+        page_bg_img = """
+        <style>
+        [data-testid="stAppViewContainer"] {
+        background-color: #fefbd8;
+        }
+        </style>
+        """
         st.markdown('''<h1 style='text-align: center;
                     color: teal;
                     '>Apresentação </h2>''',
