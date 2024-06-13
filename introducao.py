@@ -3,10 +3,10 @@ import streamlit as st
 
 def introducao(selecao, menu):
     if selecao == menu[0]:
-        
+
         st.markdown("""
             <style>
-                [data-testid=stSidebar] {
+                body  {
                     background-color: #ff000050;
                 }
             </style>
