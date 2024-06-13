@@ -11,6 +11,7 @@ def introducao(selecao, menu):
         }
         </style>
         """
+        st.markdown(page_bg_img, unsafe_allow_html=True)
         st.markdown('''<h1 style='text-align: center;
                     color: teal;
                     '>Apresentação </h2>''',
