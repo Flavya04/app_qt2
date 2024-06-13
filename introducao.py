@@ -6,7 +6,7 @@ def introducao(selecao, menu):
 
         st.markdown("""
             <style>
-                body  {
+                .reportview-container  {
                     background-color: #ff000050;
                 }
             </style>
