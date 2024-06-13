@@ -3,7 +3,6 @@ import streamlit as st
 
 def introducao(selecao, menu):
     if selecao == menu[0]:
-
        
         st.markdown('''<h1 style='text-align: center;
                     color: teal;

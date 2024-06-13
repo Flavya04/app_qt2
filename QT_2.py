@@ -8,13 +8,7 @@ from instrucoes import teste
 import streamlit as st
 
 from PIL import Image
-st.markdown("""
-<style>
-    [data-testid=stSidebar] {
-        background-color: #ff000050;
-    }
-</style>
-""", unsafe_allow_html=True)
+
 #opening the image
 
 image = Image.open('LOGO.png')
