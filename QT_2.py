@@ -11,7 +11,7 @@ from PIL import Image
 page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"] {
-background-color: #fefbd8;
+background-color: #212750;
 }
 </style>
 """
