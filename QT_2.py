@@ -23,6 +23,7 @@ image = Image.open('LOGO.png')
 bar = st.sidebar
 bar.image(image, output_format="PNG")
 bar.markdown('##### **:blue[MODELO DE QUALIDADE DA ÁGUA DE RIOS]**')
+bar.markdown('##### **:red[EM MANUTENÇÃO...]**')
 
 # 1. as sidebar menu
 menu = ["INICÍO", 'INSTRUÇÕES', "MODELAGEM",  "CALIBRAÇÃO"]
