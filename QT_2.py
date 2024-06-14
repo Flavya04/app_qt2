@@ -8,15 +8,6 @@ from instrucoes import teste
 import streamlit as st
 
 from PIL import Image
-# page_bg_img = """
-# <style>
-# [data-testid="stAppViewContainer"] {
-# background-color: #212750;
-# }
-# </style>
-# """
-# st.markdown(page_bg_img, unsafe_allow_html=True)
-#opening the image
 
 image = Image.open('LOGO.png')
 
